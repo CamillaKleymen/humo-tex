@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --text-white: #fff;
+  --text-black: #000;
+  --bg-btn-primary: #1e5099;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 46px;
+  color: var(--text-black);
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  color: var(--text-black);
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: var(--text-black);
+}
+
+
+
+.text-white {
+  color: var(--text-white);
+}
+
+.text-black {
+  color: var(--text-black);
+}
+
+.bg-hero {
+  background-image: url("../images/yarn/bg-hero.png");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+
+
+
+.btn-primary {
+  background-color: var(--bg-btn-primary);
+  color: var(--text-white);
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+}
