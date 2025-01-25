@@ -4,6 +4,7 @@
   --text-white: #fff;
   --text-black: #000;
   --bg-btn-primary: #1e5099;
+  --text-dark-brown: #312828;
 }
 
 
@@ -17,7 +18,7 @@ h1 {
 
 h2 {
   font-family: "Montserrat", sans-serif;
-  font-weight: medium;
+  font-weight: 600;
   font-size: 36px;
   color: var(--text-black);
 }
@@ -38,7 +39,9 @@ p {
   color: var(--text-black);
 }
 
-
+.extra-bold {
+  font-weight: 900;
+}
 
 .text-white {
   color: var(--text-white);
@@ -47,6 +50,10 @@ p {
 .text-black {
   color: var(--text-black);
 }
+
+.text-dark-brown {
+  color: var(--text-dark-brown);
+} 
 
 .bg-hero {
   background-image: url("../images/yarn/bg-hero.png");
@@ -70,3 +77,24 @@ p {
 .card {
   border: none
 }
+
+.partner-logo-wrap {
+  height: 300px;
+}
+
+.text-partner {
+  /* white-space: nowrap; */
+  height: 200px;
+  text-overflow: ellipsis;
+}
+
+
+.bi-check-circle-fill {
+  color: var(--bg-btn-primary);
+  font-size: medium;
+  padding-right: 10px;
+}
+
+.left-50 {
+  padding-left: 15px;
+} 
