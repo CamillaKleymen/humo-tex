@@ -8,7 +8,7 @@
 }
 
 
-.titleK h1 {
+.titleK .h1 {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 46px;
@@ -16,7 +16,7 @@
 }
 
 
-.subtitleK h2 {
+.subtt h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 36px;
@@ -24,8 +24,15 @@
 }
 
 
+h4 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--text-black);
+}
 
-.paragraphK p {
+
+p {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 18px;
