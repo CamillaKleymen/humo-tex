@@ -8,7 +8,7 @@ $(document).ready(function () {
     speed: 4000, 
     cssEase: "linear",
     slidesToShow: 4.5, 
-    slidesToScroll: 1,
+    slidesToScroll: 1, // Прокрутка одного слайда за раз
     responsive: [
       {
         breakpoint: 1024,

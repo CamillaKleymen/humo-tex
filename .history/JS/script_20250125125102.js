@@ -1,13 +1,12 @@
 $(document).ready(function () {
   $(".slider").slick({
     dots: false,
-    infinite: true, 
-    arrows: false, 
-    autoplay: true, 
-    autoplaySpeed: 0, 
-    speed: 4000, 
-    cssEase: "linear",
-    slidesToShow: 4.5, 
+    infinite: true,
+    arrows: false,
+    autoplay: true,
+    autoplaySpeed: 3000, // Set to a non-zero value
+    speed: 700, // Adjust speed for a smoother transition
+    slidesToShow: ,
     slidesToScroll: 1,
     responsive: [
       {

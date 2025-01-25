@@ -4,11 +4,11 @@ $(document).ready(function () {
     infinite: true, 
     arrows: false, 
     autoplay: true, 
-    autoplaySpeed: 0, 
-    speed: 4000, 
-    cssEase: "linear",
-    slidesToShow: 4.5, 
-    slidesToScroll: 1,
+    autoplaySpeed: 0, // Скорость паузы (0 для непрерывной прокрутки)
+    speed: 4000, // Скорость анимации (регулирует плавность)
+    cssEase: "linear", // Линейная анимация для бесконечной плавности
+    slidesToShow: 4.5, // Количество видимых слайдов
+    slidesToScroll: 1, // Прокрутка одного слайда за раз
     responsive: [
       {
         breakpoint: 1024,

@@ -6,9 +6,9 @@ $(document).ready(function () {
     autoplay: true, 
     autoplaySpeed: 0, 
     speed: 4000, 
-    cssEase: "linear",
+    cssEase: "linear", // Линейная анимация для бесконечной плавности
     slidesToShow: 4.5, 
-    slidesToScroll: 1,
+    slidesToScroll: 1, // Прокрутка одного слайда за раз
     responsive: [
       {
         breakpoint: 1024,

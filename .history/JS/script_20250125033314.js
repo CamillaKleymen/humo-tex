@@ -1,14 +1,15 @@
 $(document).ready(function () {
   $(".slider").slick({
     dots: false,
-    infinite: true, 
-    arrows: false, 
-    autoplay: true, 
-    autoplaySpeed: 0, 
-    speed: 4000, 
-    cssEase: "linear",
-    slidesToShow: 4.5, 
+    infinite: true,
+    arrows: true,
+    autoplay: false,
+    // autoplaySpeed: 0,
+    // speed: 7000,
+    slidesToShow: 3,
     slidesToScroll: 1,
+    prevArrow: $(".slider-prev"),
+    nextArrow: $(".slider-next"),
     responsive: [
       {
         breakpoint: 1024,

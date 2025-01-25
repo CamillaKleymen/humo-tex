@@ -70,3 +70,7 @@ p {
 .card {
   border: none
 }
+
+.card-img-top {
+  height: 100px;
+}
